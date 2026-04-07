@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parada Poética</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- NAVBAR -->
+    <header class="bg-red-800 py-4">
+        <nav class="max-w-5xl mx-auto flex justify-between items-center">
+            <div>
+                <img src="./img/parada-poetica.png" alt="Logo da Parada Poética" class="h-18 w-auto">
+            </div>
+            <ul class="flex gap-8 text-white">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#poemas">Poemas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="max-w-5xl mx-auto">
+
+        <!-- HERO -->
+        <section class="py-20 space-y-6" id="hero">
+            <h1 class="text-5xl text-center text-red-500">Parada Poética</h1>
+            <p class="text-lg text-center">Poesia de primeira, em uma noite de segunda</p>
+        </section>
+
+        <!-- AGENDA -->
+        <section class="py-16 px-4 space-y-6" id="agenda">
+            <h2 class="text-3xl text-center">Agenda da Semana</h2>
+            <ul class="bg-white p-4 rounded-lg">
+                <li>📅 Toda 2ª segunda-feira do mês</li>
+                <li>📍 Estação Ferroviária de Nova Odessa</li>
+                <li>🎤 Microfone aberto para poesia e música</li>
+            </ul>
+        </section>
+
+        <!-- ARTISTAS -->
+        <section id="artistas" class="bg-gray-200 py-16 px-4">
+            <h2 class="text-2xl font-bold mb-10 text-center">Artistas participantes</h2>
+            <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+                <div class="bg-white p-4 rounded shadow text-center">
+                    <h3 class="font-bold">Renan Inquérito</h3>
+                    <p class="text-sm text-gray-600">Poeta/Cantor e Escritor</p>
+                </div>
+
+                <div class="bg-white p-4 rounded shadow text-center">
+                    <h3 class="font-bold">Emicida</h3>
+                    <p class="text-sm text-gray-600">Músico</p>
+                </div>
+
+                <div class="bg-white p-4 rounded shadow text-center">
+                    <h3 class="font-bold">Terceiro Turno</h3>
+                    <p class="text-sm text-gray-600">Músicos</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section class="py-16 px-4" id="galeria">
+            <h2 class="text-2xl font-bold mb-10 text-center">Galeria de Fotos</h2>
+            <div class="grid grid-cols-2 justify-items-center gap-6 max-w-6xl mx-auto">
+                <img src="./img/renan.jpg" alt="Renan Inquérito">
+                <img src="./img/emicida.jpg" alt="Emicida">
+                <img src="./img/criolo.jpg" alt="Criolo">
+                <img src="./img/parada.jpg" alt="Evento Parada Poética">
+            </div>
+        </section>
+
+        <!-- POEMAS / DEPOIMENTOS -->
+        <section class="py-16 px-4" id="poemas">
+            <h2 class="text-2xl font-bold mb-10 text-center">Poemas e Depoimentos</h2>
+            <blockquote class="text-center">
+                "A arte nos conecta onde as palavras falham."
+            </blockquote>
+            <p class="text-center">- Gustavo Lélis</p>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="py-16 px-4" id="contato">
+            <h2 class="text-2xl font-bold mb-10 text-center">Entre em contato</h2>
+            <form class="max-w-md mx-auto bg-white p-6 rounded shadow flex flex-col gap-4">
+                <input type="text" placeholder="Nome" class="border p-2 rounded">
+                <input type="email" placeholder="Email" class="border p-2 rounded">
+                <textarea placeholder="Mensagem" class="border p-2 rounded"></textarea>
+                <button class="bg-red-600 text-white py-2 rounded hover:bg-red-700">
+                    Enviar
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-red-800 text-white text-center py-4">
+        <p>© 2026 Parada Poética - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
